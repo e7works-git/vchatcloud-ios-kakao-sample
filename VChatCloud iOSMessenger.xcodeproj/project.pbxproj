@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B908A3692BBBDB3300AEBAF0 /* HelpDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B908A3682BBBDB3300AEBAF0 /* HelpDrawerView.swift */; };
+		B90CBD982BC4D5D700C7C6FF /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = B90CBD972BC4D5D700C7C6FF /* CachedAsyncImage */; settings = {ATTRIBUTES = (Required, ); }; };
+		B90CBD9B2BC4F03A00C7C6FF /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBD9A2BC4F03A00C7C6FF /* UserListView.swift */; };
+		B90CBD9D2BC4F12800C7C6FF /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBD9C2BC4F12800C7C6FF /* TextFieldView.swift */; };
+		B90CBD9F2BC50A0E00C7C6FF /* EmojiFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBD9E2BC50A0E00C7C6FF /* EmojiFieldView.swift */; };
+		B90CBDA42BC5201600C7C6FF /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = B90CBDA32BC5201600C7C6FF /* AlertToast */; };
+		B90CBDA62BC5289F00C7C6FF /* ChatBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBDA52BC5289F00C7C6FF /* ChatBodyView.swift */; };
+		B90CBDA82BC76C0C00C7C6FF /* ChatFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBDA72BC76C0C00C7C6FF /* ChatFileView.swift */; };
+		B90CBDAA2BC7737000C7C6FF /* ChatOpenGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBDA92BC7737000C7C6FF /* ChatOpenGraphView.swift */; };
+		B90CBDAF2BC8DE9300C7C6FF /* PreviewImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBDAE2BC8DE9300C7C6FF /* PreviewImageView.swift */; };
+		B90CBDB42BC8FBAB00C7C6FF /* MyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CBDB32BC8FBAB00C7C6FF /* MyScrollView.swift */; };
+		B93519282BCCD34600BFFCFC /* LanguageToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93519272BCCD34600BFFCFC /* LanguageToggleView.swift */; };
+		B93519302BCD0F7600BFFCFC /* MockExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935192F2BCD0F7600BFFCFC /* MockExtension.swift */; };
+		B93519322BCD28B100BFFCFC /* ChatVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93519312BCD28B100BFFCFC /* ChatVideoView.swift */; };
+		B961B1E72BE0CEB0002C5F70 /* VChatCloudSwiftSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B961B1E62BE0CEB0002C5F70 /* VChatCloudSwiftSDK */; };
+		B9A17D2F2BB2B0D600217F1D /* VChatCloud_iOSMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D2E2BB2B0D600217F1D /* VChatCloud_iOSMessengerApp.swift */; };
+		B9A17D312BB2B0D600217F1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D302BB2B0D600217F1D /* ContentView.swift */; };
+		B9A17D332BB2B0D700217F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A17D322BB2B0D700217F1D /* Assets.xcassets */; };
+		B9A17D362BB2B0D700217F1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9A17D352BB2B0D700217F1D /* Preview Assets.xcassets */; };
+		B9A17D402BB2B21A00217F1D /* TitleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D3F2BB2B21A00217F1D /* TitleBarView.swift */; };
+		B9A17D442BB2B36500217F1D /* ChattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D432BB2B36500217F1D /* ChattingView.swift */; };
+		B9A17D4B2BB2BED200217F1D /* ChatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D4A2BB2BED200217F1D /* ChatTextView.swift */; };
+		B9A17D4D2BB2C29800217F1D /* ChatHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D4C2BB2C29800217F1D /* ChatHeaderView.swift */; };
+		B9A17D512BB2C7B300217F1D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D502BB2C7B300217F1D /* LoadingView.swift */; };
+		B9A17D572BB2CD1200217F1D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D562BB2CD1200217F1D /* LoginView.swift */; };
+		B9A17D5B2BB3E10800217F1D /* TermView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D5A2BB3E10800217F1D /* TermView.swift */; };
+		B9A17D5E2BB3E67700217F1D /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D5D2BB3E67600217F1D /* CustomButtonStyle.swift */; };
+		B9A17D622BB3F7AA00217F1D /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D612BB3F7AA00217F1D /* RouterViewModel.swift */; };
+		B9A17D642BB3FAD500217F1D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D632BB3FAD500217F1D /* ProfileView.swift */; };
+		B9A17D662BB4027A00217F1D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B9A17D652BB4027A00217F1D /* .gitignore */; };
+		B9A17D692BB404A500217F1D /* ChatResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D682BB404A500217F1D /* ChatResultModel.swift */; };
+		B9A17D792BB4FCC500217F1D /* UtilExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D782BB4FCC500217F1D /* UtilExtensions.swift */; };
+		B9A17D812BB6829A00217F1D /* MyChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D802BB6829A00217F1D /* MyChannel.swift */; };
+		B9A17D852BBA479A00217F1D /* ErrorPopupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D842BBA479A00217F1D /* ErrorPopupModel.swift */; };
+		B9A17D872BBA485000217F1D /* ErrorPopupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D862BBA485000217F1D /* ErrorPopupViewModel.swift */; };
+		B9A17D892BBAA38F00217F1D /* JoinUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D882BBAA38F00217F1D /* JoinUserView.swift */; };
+		B9A17D8B2BBAA5C000217F1D /* LeaveUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A17D8A2BBAA5C000217F1D /* LeaveUserView.swift */; };
+		B9BEC3AD2BBFE12D00BED56C /* ChatBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEC3AC2BBFE12D00BED56C /* ChatBaseView.swift */; };
+		B9BEC3AF2BBFF2BE00BED56C /* ChatEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEC3AE2BBFF2BE00BED56C /* ChatEmojiView.swift */; };
+		B9BEC3B12BBFF77100BED56C /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEC3B02BBFF77100BED56C /* NoticeView.swift */; };
+		B9BEC3B32BC3800B00BED56C /* ChatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEC3B22BC3800B00BED56C /* ChatImageView.swift */; };
+		B9BEC3B82BC3907900BED56C /* AlbumPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEC3B72BC3907900BED56C /* AlbumPicker.swift */; };
+		B9BEC3BA2BC3C0D500BED56C /* FileDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEC3B92BC3C0D500BED56C /* FileDrawerView.swift */; };
+		B9E495882BD219EE00F8DEDA /* PreviewVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E495872BD219EE00F8DEDA /* PreviewVideoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B935192D2BCCD89F00BFFCFC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B908A3682BBBDB3300AEBAF0 /* HelpDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDrawerView.swift; sourceTree = "<group>"; };
+		B90CBD9A2BC4F03A00C7C6FF /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		B90CBD9C2BC4F12800C7C6FF /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		B90CBD9E2BC50A0E00C7C6FF /* EmojiFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiFieldView.swift; sourceTree = "<group>"; };
+		B90CBDA52BC5289F00C7C6FF /* ChatBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBodyView.swift; sourceTree = "<group>"; };
+		B90CBDA72BC76C0C00C7C6FF /* ChatFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFileView.swift; sourceTree = "<group>"; };
+		B90CBDA92BC7737000C7C6FF /* ChatOpenGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOpenGraphView.swift; sourceTree = "<group>"; };
+		B90CBDAE2BC8DE9300C7C6FF /* PreviewImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImageView.swift; sourceTree = "<group>"; };
+		B90CBDB32BC8FBAB00C7C6FF /* MyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollView.swift; sourceTree = "<group>"; };
+		B93519272BCCD34600BFFCFC /* LanguageToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageToggleView.swift; sourceTree = "<group>"; };
+		B935192F2BCD0F7600BFFCFC /* MockExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExtension.swift; sourceTree = "<group>"; };
+		B93519312BCD28B100BFFCFC /* ChatVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVideoView.swift; sourceTree = "<group>"; };
+		B9A17D2B2BB2B0D600217F1D /* VChatCloud iOSMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VChatCloud iOSMessenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A17D2E2BB2B0D600217F1D /* VChatCloud_iOSMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VChatCloud_iOSMessengerApp.swift; sourceTree = "<group>"; };
+		B9A17D302BB2B0D600217F1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9A17D322BB2B0D700217F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9A17D352BB2B0D700217F1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9A17D3F2BB2B21A00217F1D /* TitleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBarView.swift; sourceTree = "<group>"; };
+		B9A17D432BB2B36500217F1D /* ChattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingView.swift; sourceTree = "<group>"; };
+		B9A17D4A2BB2BED200217F1D /* ChatTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTextView.swift; sourceTree = "<group>"; };
+		B9A17D4C2BB2C29800217F1D /* ChatHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHeaderView.swift; sourceTree = "<group>"; };
+		B9A17D502BB2C7B300217F1D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B9A17D562BB2CD1200217F1D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B9A17D5A2BB3E10800217F1D /* TermView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermView.swift; sourceTree = "<group>"; };
+		B9A17D5D2BB3E67600217F1D /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		B9A17D612BB3F7AA00217F1D /* RouterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModel.swift; sourceTree = "<group>"; };
+		B9A17D632BB3FAD500217F1D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B9A17D652BB4027A00217F1D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B9A17D682BB404A500217F1D /* ChatResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResultModel.swift; sourceTree = "<group>"; };
+		B9A17D782BB4FCC500217F1D /* UtilExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilExtensions.swift; sourceTree = "<group>"; };
+		B9A17D802BB6829A00217F1D /* MyChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChannel.swift; sourceTree = "<group>"; };
+		B9A17D842BBA479A00217F1D /* ErrorPopupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPopupModel.swift; sourceTree = "<group>"; };
+		B9A17D862BBA485000217F1D /* ErrorPopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPopupViewModel.swift; sourceTree = "<group>"; };
+		B9A17D882BBAA38F00217F1D /* JoinUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinUserView.swift; sourceTree = "<group>"; };
+		B9A17D8A2BBAA5C000217F1D /* LeaveUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveUserView.swift; sourceTree = "<group>"; };
+		B9BEC3AC2BBFE12D00BED56C /* ChatBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBaseView.swift; sourceTree = "<group>"; };
+		B9BEC3AE2BBFF2BE00BED56C /* ChatEmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEmojiView.swift; sourceTree = "<group>"; };
+		B9BEC3B02BBFF77100BED56C /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		B9BEC3B22BC3800B00BED56C /* ChatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatImageView.swift; sourceTree = "<group>"; };
+		B9BEC3B62BC38DD400BED56C /* VChatCloud-iOSMessenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "VChatCloud-iOSMessenger-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B9BEC3B72BC3907900BED56C /* AlbumPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPicker.swift; sourceTree = "<group>"; };
+		B9BEC3B92BC3C0D500BED56C /* FileDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDrawerView.swift; sourceTree = "<group>"; };
+		B9E495872BD219EE00F8DEDA /* PreviewVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVideoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9A17D282BB2B0D600217F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CBD982BC4D5D700C7C6FF /* CachedAsyncImage in Frameworks */,
+				B961B1E72BE0CEB0002C5F70 /* VChatCloudSwiftSDK in Frameworks */,
+				B90CBDA42BC5201600C7C6FF /* AlertToast in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90CBDAD2BC8DE7A00C7C6FF /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				B90CBDB32BC8FBAB00C7C6FF /* MyScrollView.swift */,
+				B90CBDAE2BC8DE9300C7C6FF /* PreviewImageView.swift */,
+				B9E495872BD219EE00F8DEDA /* PreviewVideoView.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		B961B1D32BE08FC8002C5F70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9A17D222BB2B0D600217F1D = {
+			isa = PBXGroup;
+			children = (
+				B9A17D652BB4027A00217F1D /* .gitignore */,
+				B9A17D2C2BB2B0D600217F1D /* Products */,
+				B9A17D2D2BB2B0D600217F1D /* VChatCloud iOSMessenger */,
+				B961B1D32BE08FC8002C5F70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9A17D2C2BB2B0D600217F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9A17D2B2BB2B0D600217F1D /* VChatCloud iOSMessenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A17D2D2BB2B0D600217F1D /* VChatCloud iOSMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				B9BEC3B62BC38DD400BED56C /* VChatCloud-iOSMessenger-Info.plist */,
+				B9BEC3B72BC3907900BED56C /* AlbumPicker.swift */,
+				B9A17D302BB2B0D600217F1D /* ContentView.swift */,
+				B9A17D5D2BB3E67600217F1D /* CustomButtonStyle.swift */,
+				B935192F2BCD0F7600BFFCFC /* MockExtension.swift */,
+				B9A17D802BB6829A00217F1D /* MyChannel.swift */,
+				B9A17D782BB4FCC500217F1D /* UtilExtensions.swift */,
+				B9A17D2E2BB2B0D600217F1D /* VChatCloud_iOSMessengerApp.swift */,
+				B9A17D322BB2B0D700217F1D /* Assets.xcassets */,
+				B9A17D342BB2B0D700217F1D /* Preview Content */,
+				B9A17D3C2BB2B10600217F1D /* View */,
+				B9A17D3E2BB2B11A00217F1D /* Model */,
+				B9A17D3D2BB2B10C00217F1D /* ViewModel */,
+			);
+			path = "VChatCloud iOSMessenger";
+			sourceTree = "<group>";
+		};
+		B9A17D342BB2B0D700217F1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9A17D352BB2B0D700217F1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9A17D3C2BB2B10600217F1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9A17D552BB2CCFD00217F1D /* Chat */,
+				B9A17D522BB2CCEA00217F1D /* Loading */,
+				B9A17D542BB2CCF800217F1D /* Login */,
+				B90CBDAD2BC8DE7A00C7C6FF /* Preview */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9A17D3D2BB2B10C00217F1D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B9A17D612BB3F7AA00217F1D /* RouterViewModel.swift */,
+				B9A17D862BBA485000217F1D /* ErrorPopupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B9A17D3E2BB2B11A00217F1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9A17D682BB404A500217F1D /* ChatResultModel.swift */,
+				B9A17D842BBA479A00217F1D /* ErrorPopupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9A17D522BB2CCEA00217F1D /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				B9A17D502BB2C7B300217F1D /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		B9A17D542BB2CCF800217F1D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B9A17D562BB2CD1200217F1D /* LoginView.swift */,
+				B9A17D632BB3FAD500217F1D /* ProfileView.swift */,
+				B9A17D5A2BB3E10800217F1D /* TermView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B9A17D552BB2CCFD00217F1D /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B9BEC3AC2BBFE12D00BED56C /* ChatBaseView.swift */,
+				B90CBDA52BC5289F00C7C6FF /* ChatBodyView.swift */,
+				B9BEC3AE2BBFF2BE00BED56C /* ChatEmojiView.swift */,
+				B90CBDA72BC76C0C00C7C6FF /* ChatFileView.swift */,
+				B9A17D4C2BB2C29800217F1D /* ChatHeaderView.swift */,
+				B9BEC3B22BC3800B00BED56C /* ChatImageView.swift */,
+				B90CBDA92BC7737000C7C6FF /* ChatOpenGraphView.swift */,
+				B9A17D4A2BB2BED200217F1D /* ChatTextView.swift */,
+				B9A17D432BB2B36500217F1D /* ChattingView.swift */,
+				B93519312BCD28B100BFFCFC /* ChatVideoView.swift */,
+				B90CBD9E2BC50A0E00C7C6FF /* EmojiFieldView.swift */,
+				B9BEC3B92BC3C0D500BED56C /* FileDrawerView.swift */,
+				B908A3682BBBDB3300AEBAF0 /* HelpDrawerView.swift */,
+				B9A17D882BBAA38F00217F1D /* JoinUserView.swift */,
+				B93519272BCCD34600BFFCFC /* LanguageToggleView.swift */,
+				B9A17D8A2BBAA5C000217F1D /* LeaveUserView.swift */,
+				B9BEC3B02BBFF77100BED56C /* NoticeView.swift */,
+				B90CBD9C2BC4F12800C7C6FF /* TextFieldView.swift */,
+				B9A17D3F2BB2B21A00217F1D /* TitleBarView.swift */,
+				B90CBD9A2BC4F03A00C7C6FF /* UserListView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9A17D2A2BB2B0D600217F1D /* VChatCloud iOSMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A17D392BB2B0D700217F1D /* Build configuration list for PBXNativeTarget "VChatCloud iOSMessenger" */;
+			buildPhases = (
+				B9A17D272BB2B0D600217F1D /* Sources */,
+				B9A17D282BB2B0D600217F1D /* Frameworks */,
+				B9A17D292BB2B0D600217F1D /* Resources */,
+				B935192D2BCCD89F00BFFCFC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VChatCloud iOSMessenger";
+			packageProductDependencies = (
+				B90CBD972BC4D5D700C7C6FF /* CachedAsyncImage */,
+				B90CBDA32BC5201600C7C6FF /* AlertToast */,
+				B961B1E62BE0CEB0002C5F70 /* VChatCloudSwiftSDK */,
+			);
+			productName = "VChatCloud iOSMessenger";
+			productReference = B9A17D2B2BB2B0D600217F1D /* VChatCloud iOSMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9A17D232BB2B0D600217F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B9A17D2A2BB2B0D600217F1D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B9A17D262BB2B0D600217F1D /* Build configuration list for PBXProject "VChatCloud iOSMessenger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9A17D222BB2B0D600217F1D;
+			packageReferences = (
+				B90CBD962BC4D5D600C7C6FF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				B90CBDA22BC5201600C7C6FF /* XCRemoteSwiftPackageReference "AlertToast" */,
+				B961B1E52BE0CEB0002C5F70 /* XCRemoteSwiftPackageReference "VChatCloud-Swift-SDK" */,
+			);
+			productRefGroup = B9A17D2C2BB2B0D600217F1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9A17D2A2BB2B0D600217F1D /* VChatCloud iOSMessenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9A17D292BB2B0D600217F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A17D362BB2B0D700217F1D /* Preview Assets.xcassets in Resources */,
+				B9A17D662BB4027A00217F1D /* .gitignore in Resources */,
+				B9A17D332BB2B0D700217F1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9A17D272BB2B0D600217F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A17D792BB4FCC500217F1D /* UtilExtensions.swift in Sources */,
+				B9A17D312BB2B0D600217F1D /* ContentView.swift in Sources */,
+				B9BEC3AD2BBFE12D00BED56C /* ChatBaseView.swift in Sources */,
+				B9A17D442BB2B36500217F1D /* ChattingView.swift in Sources */,
+				B9A17D402BB2B21A00217F1D /* TitleBarView.swift in Sources */,
+				B9A17D512BB2C7B300217F1D /* LoadingView.swift in Sources */,
+				B9BEC3B12BBFF77100BED56C /* NoticeView.swift in Sources */,
+				B9E495882BD219EE00F8DEDA /* PreviewVideoView.swift in Sources */,
+				B9A17D2F2BB2B0D600217F1D /* VChatCloud_iOSMessengerApp.swift in Sources */,
+				B93519302BCD0F7600BFFCFC /* MockExtension.swift in Sources */,
+				B9A17D692BB404A500217F1D /* ChatResultModel.swift in Sources */,
+				B93519322BCD28B100BFFCFC /* ChatVideoView.swift in Sources */,
+				B90CBD9B2BC4F03A00C7C6FF /* UserListView.swift in Sources */,
+				B9A17D572BB2CD1200217F1D /* LoginView.swift in Sources */,
+				B9BEC3AF2BBFF2BE00BED56C /* ChatEmojiView.swift in Sources */,
+				B9A17D852BBA479A00217F1D /* ErrorPopupModel.swift in Sources */,
+				B90CBDA82BC76C0C00C7C6FF /* ChatFileView.swift in Sources */,
+				B9A17D4D2BB2C29800217F1D /* ChatHeaderView.swift in Sources */,
+				B90CBD9D2BC4F12800C7C6FF /* TextFieldView.swift in Sources */,
+				B9A17D642BB3FAD500217F1D /* ProfileView.swift in Sources */,
+				B908A3692BBBDB3300AEBAF0 /* HelpDrawerView.swift in Sources */,
+				B9A17D872BBA485000217F1D /* ErrorPopupViewModel.swift in Sources */,
+				B9A17D812BB6829A00217F1D /* MyChannel.swift in Sources */,
+				B90CBD9F2BC50A0E00C7C6FF /* EmojiFieldView.swift in Sources */,
+				B90CBDA62BC5289F00C7C6FF /* ChatBodyView.swift in Sources */,
+				B9BEC3BA2BC3C0D500BED56C /* FileDrawerView.swift in Sources */,
+				B93519282BCCD34600BFFCFC /* LanguageToggleView.swift in Sources */,
+				B9A17D8B2BBAA5C000217F1D /* LeaveUserView.swift in Sources */,
+				B9BEC3B32BC3800B00BED56C /* ChatImageView.swift in Sources */,
+				B9BEC3B82BC3907900BED56C /* AlbumPicker.swift in Sources */,
+				B90CBDAF2BC8DE9300C7C6FF /* PreviewImageView.swift in Sources */,
+				B9A17D5B2BB3E10800217F1D /* TermView.swift in Sources */,
+				B9A17D892BBAA38F00217F1D /* JoinUserView.swift in Sources */,
+				B90CBDB42BC8FBAB00C7C6FF /* MyScrollView.swift in Sources */,
+				B9A17D5E2BB3E67700217F1D /* CustomButtonStyle.swift in Sources */,
+				B9A17D622BB3F7AA00217F1D /* RouterViewModel.swift in Sources */,
+				B9A17D4B2BB2BED200217F1D /* ChatTextView.swift in Sources */,
+				B90CBDAA2BC7737000C7C6FF /* ChatOpenGraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9A17D372BB2B0D700217F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9A17D382BB2B0D700217F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9A17D3A2BB2B0D700217F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VChatCloud iOSMessenger/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VChatCloud-iOSMessenger-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VChatCloud Messenger";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "To send the file to the server and share it in the chat room";
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To send pictures to the server and share them in the chat room";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vchatcloud.ios.VChatCloud-iOSMessenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9A17D3B2BB2B0D700217F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VChatCloud iOSMessenger/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VChatCloud-iOSMessenger-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VChatCloud Messenger";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "To send the file to the server and share it in the chat room";
+				INFOPLIST_KEY_NSFileProviderPresenceUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To send pictures to the server and share them in the chat room";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vchatcloud.ios.VChatCloud-iOSMessenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9A17D262BB2B0D600217F1D /* Build configuration list for PBXProject "VChatCloud iOSMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A17D372BB2B0D700217F1D /* Debug */,
+				B9A17D382BB2B0D700217F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A17D392BB2B0D700217F1D /* Build configuration list for PBXNativeTarget "VChatCloud iOSMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A17D3A2BB2B0D700217F1D /* Debug */,
+				B9A17D3B2BB2B0D700217F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B90CBD962BC4D5D600C7C6FF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		B90CBDA22BC5201600C7C6FF /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B961B1E52BE0CEB0002C5F70 /* XCRemoteSwiftPackageReference "VChatCloud-Swift-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/e7works-git/VChatCloud-Swift-SDK.git";
+			requirement = {
+				kind = revision;
+				revision = e4c441809cbb49537a7df10c0d0cfb78229abbb3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B90CBD972BC4D5D700C7C6FF /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B90CBD962BC4D5D600C7C6FF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		B90CBDA32BC5201600C7C6FF /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B90CBDA22BC5201600C7C6FF /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		B961B1E62BE0CEB0002C5F70 /* VChatCloudSwiftSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B961B1E52BE0CEB0002C5F70 /* XCRemoteSwiftPackageReference "VChatCloud-Swift-SDK" */;
+			productName = VChatCloudSwiftSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B9A17D232BB2B0D600217F1D /* Project object */;
+}
